@@ -1,0 +1,4 @@
+.vscode/**
+tool/**
+
+.gitignore

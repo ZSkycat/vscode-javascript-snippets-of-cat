@@ -1,0 +1,48 @@
+{
+    "import default": {
+        "prefix": "imp",
+        "body": "import ${2:name} from '${1:module}';$0",
+        "description": "import name from 'module';"
+    },
+    "import name": {
+        "prefix": "impn",
+        "body": "import { $2 } from '${1:module}';$0",
+        "description": "import { name } from 'module';"
+    },
+    "import all": {
+        "prefix": "impa",
+        "body": "import * as ${2:name} from '${1:module}';$0",
+        "description": "import * as name from 'module';"
+    },
+    "import run only": {
+        "prefix": "impr",
+        "body": "import '${1:module}';$0",
+        "description": "import 'module';"
+    },
+    "export default": {
+        "prefix": "exp",
+        "body": "export ${1:default} $0",
+        "description": "export default"
+    },
+    "export from": {
+        "prefix": "expf",
+        "body": "export { ${2:default} } from '${1:module}';$0",
+        "description": "export { default } from 'module';"
+    },
+    "export all from": {
+        "prefix": "expa",
+        "body": "export * from '${1:module}';$0",
+        "description": "export * from 'module';"
+    },
+
+    "getter": {
+        "prefix": "getp",
+        "body": "get ${1:property}() { return ${2:true}; }$0",
+        "description": "get property() { return true; }"
+    },
+    "setter": {
+        "prefix": "setp",
+        "body": "set ${1:property}(value) { $0 }",
+        "description": "set property(value) { }"
+    }
+}
