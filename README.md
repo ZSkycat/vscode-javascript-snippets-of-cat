@@ -19,7 +19,7 @@
 | Trigger | Name            | Code                                |
 | ------- | --------------- | ----------------------------------- |
 | `imp`   | import default  | `import name from 'module';`        |
-| `impn`  | import name     | `import { name } from 'module';`    |
+| `impn`  | import name     | `import { default } from 'module';` |
 | `impa`  | import all      | `import * as name from 'module';`   |
 | `impr`  | import run only | `import 'module';`                  |
 | `exp`   | export default  | `export default`                    |

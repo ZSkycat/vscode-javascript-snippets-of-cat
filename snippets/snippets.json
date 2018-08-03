@@ -6,8 +6,8 @@
     },
     "import name": {
         "prefix": "impn",
-        "body": "import { $2 } from '${1:module}';$0",
-        "description": "import { name } from 'module';"
+        "body": "import { ${2:default} } from '${1:module}';$0",
+        "description": "import { default } from 'module';"
     },
     "import all": {
         "prefix": "impa",
