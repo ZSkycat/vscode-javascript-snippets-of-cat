@@ -35,4 +35,4 @@
 
 ## License
 
-[MIT](https://github.com/ZSkycat/vscode-javascript-snippets-of-cat/blob/master/LICENSE)
+[MIT](https://github.com/ZSkycat/vscode-javascript-snippets-of-cat/blob/master/LICENSE.txt)
