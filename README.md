@@ -21,17 +21,20 @@
 | `imp`   | import default  | `import name from 'module';`        |
 | `impn`  | import name     | `import { default } from 'module';` |
 | `impa`  | import all      | `import * as name from 'module';`   |
-| `impr`  | import run only | `import 'module';`                  |
+| `impr`  | import run      | `import 'module';`                  |
 | `exp`   | export default  | `export default`                    |
 | `expf`  | export from     | `export { default } from 'module';` |
 | `expa`  | export all from | `export * from 'module';`           |
 
 ## Other Snippets
 
-| Trigger | Name   | Code                              |
-| ------- | ------ | --------------------------------- |
-| `getp`  | getter | `get property() { return true; }` |
-| `setp`  | setter | `set property(value) { }`         |
+| Trigger | Name              | Code                              |
+| ------- | ----------------- | --------------------------------- |
+| `tryc`  | try catch         | `try { } catch { }`               |
+| `tryf`  | try finally       | `try { } finally { }`             |
+| `trycf` | try catch finally | `try { } catch { } finally { }`   |
+| `getp`  | getter            | `get property() { return true; }` |
+| `setp`  | setter            | `set property(value) { }`         |
 
 ## License
 

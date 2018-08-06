@@ -2,47 +2,80 @@
     "import default": {
         "prefix": "imp",
         "body": "import ${2:name} from '${1:module}';$0",
-        "description": "import name from 'module';"
+        "description": "import default",
     },
     "import name": {
         "prefix": "impn",
         "body": "import { ${2:default} } from '${1:module}';$0",
-        "description": "import { default } from 'module';"
+        "description": "import name",
     },
     "import all": {
         "prefix": "impa",
         "body": "import * as ${2:name} from '${1:module}';$0",
-        "description": "import * as name from 'module';"
+        "description": "import all",
     },
-    "import run only": {
+    "import run": {
         "prefix": "impr",
         "body": "import '${1:module}';$0",
-        "description": "import 'module';"
+        "description": "import run",
     },
     "export default": {
         "prefix": "exp",
         "body": "export ${1:default} $0",
-        "description": "export default"
+        "description": "export default",
     },
     "export from": {
         "prefix": "expf",
         "body": "export { ${2:default} } from '${1:module}';$0",
-        "description": "export { default } from 'module';"
+        "description": "export from",
     },
     "export all from": {
         "prefix": "expa",
         "body": "export * from '${1:module}';$0",
-        "description": "export * from 'module';"
+        "description": "export all from",
+    },
+
+    "try catch": {
+        "prefix": "tryc",
+        "body": [
+            "try {\n\t$0",
+            "} catch (error) {\n\t",
+            "}",
+        ],
+        "description": "try catch",
+    },
+    "try finally": {
+        "prefix": "tryf",
+        "body": [
+            "try {\n\t$0",
+            "} finally {\n\t",
+            "}",
+        ],
+        "description": "try finally",
+    },
+    "try catch finally": {
+        "prefix": "trycf",
+        "body": [
+            "try {\n\t$0",
+            "} catch (error) {\n\t",
+            "} finally {\n\t",
+            "}",
+        ],
+        "description": "try catch finally",
     },
 
     "getter": {
         "prefix": "getp",
-        "body": "get ${1:property}() { return ${2:true}; }$0",
-        "description": "get property() { return true; }"
+        "body": [
+            "get ${1:property}() {",
+            "\treturn ${2:true};",
+            "}$0",
+        ],
+        "description": "getter",
     },
     "setter": {
         "prefix": "setp",
-        "body": "set ${1:property}(value) { $0 }",
-        "description": "set property(value) { }"
-    }
+        "body": "set ${1:property}(value) {\n\t$0\n}",
+        "description": "setter",
+    },
 }
