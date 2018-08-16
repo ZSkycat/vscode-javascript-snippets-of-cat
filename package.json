@@ -3,7 +3,7 @@
     "version": "0.0.3",
     "publisher": "ZSkycat",
     "displayName": "JavaScript snippets of Cat",
-    "description": "This extends my code snippets for JavaScript and TypeScript",
+    "description": "My own code snippets for JavaScript and TypeScript.",
     "icon": "icon.png",
     "keywords": [
         "snippets",
@@ -15,7 +15,7 @@
         "url": "https://github.com/ZSkycat/vscode-javascript-snippets-of-cat"
     },
     "engines": {
-        "vscode": "^1.25.0"
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Snippets"
