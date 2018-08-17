@@ -1,7 +1,7 @@
 {
     "name": "javascript-snippets-of-cat",
-    "version": "0.0.3",
-    "publisher": "ZSkycat",
+    "version": "0.0.4",
+    "publisher": "zskycat",
     "displayName": "JavaScript snippets of Cat",
     "description": "My own code snippets for JavaScript and TypeScript.",
     "icon": "icon.png",
