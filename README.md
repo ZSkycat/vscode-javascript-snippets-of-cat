@@ -1,8 +1,8 @@
 # vscode-javascript-snippets-of-cat
 
-[![version](https://vsmarketplacebadge.apphb.com/version/zskycat.javascript-snippets-of-cat.svg)](https://marketplace.visualstudio.com/items?itemName=zskycat.javascript-snippets-of-cat)
-[![installs](https://vsmarketplacebadge.apphb.com/installs/zskycat.javascript-snippets-of-cat.svg)](https://marketplace.visualstudio.com/items?itemName=zskycat.javascript-snippets-of-cat)
-[![ratings](https://vsmarketplacebadge.apphb.com/rating/zskycat.javascript-snippets-of-cat.svg)](https://marketplace.visualstudio.com/items?itemName=zskycat.javascript-snippets-of-cat)
+[![version](https://img.shields.io/vscode-marketplace/v/zskycat.javascript-snippets-of-cat.svg)](https://marketplace.visualstudio.com/items?itemName=zskycat.javascript-snippets-of-cat)
+[![downloads](https://img.shields.io/vscode-marketplace/d/zskycat.javascript-snippets-of-cat.svg)](https://marketplace.visualstudio.com/items?itemName=zskycat.javascript-snippets-of-cat)
+[![rating](https://img.shields.io/vscode-marketplace/r/zskycat.javascript-snippets-of-cat.svg)](https://marketplace.visualstudio.com/items?itemName=zskycat.javascript-snippets-of-cat)
 
 **JavaScript snippets of Cat** is a VSCode extension. This extends my own code snippets for JavaScript and TypeScript.
 

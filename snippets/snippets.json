@@ -68,8 +68,8 @@
         "prefix": "getp",
         "body": [
             "get ${1:property}() {",
-            "\treturn ${2:true};",
-            "}$0",
+            "\treturn ${0:true};",
+            "}",
         ],
         "description": "getter",
     },
