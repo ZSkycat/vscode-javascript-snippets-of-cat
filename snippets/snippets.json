@@ -65,7 +65,7 @@
     },
 
     "getter": {
-        "prefix": "getp",
+        "prefix": "gett",
         "body": [
             "get ${1:property}() {",
             "\treturn ${0:true};",
@@ -74,7 +74,7 @@
         "description": "getter",
     },
     "setter": {
-        "prefix": "setp",
+        "prefix": "sett",
         "body": "set ${1:property}(value) {\n\t$0\n}",
         "description": "setter",
     },

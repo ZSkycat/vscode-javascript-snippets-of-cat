@@ -35,8 +35,8 @@
 ## Other Snippets
 | Trigger | Name       | Code                              |
 | ------- | ---------- | --------------------------------- |
-| `getp`  | getter     | `get property() { return true; }` |
-| `setp`  | setter     | `set property(value) { }`         |
+| `gett`  | getter     | `get property() { return true; }` |
+| `sett`  | setter     | `set property(value) { }`         |
 | `caseb` | case break | `case value: break;`              |
 
 ## License
