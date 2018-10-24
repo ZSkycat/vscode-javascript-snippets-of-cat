@@ -1,7 +1,7 @@
 {
     "name": "javascript-snippets-of-cat",
     "displayName": "JavaScript snippets of Cat",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "publisher": "zskycat",
     "contributes": {
         "snippets": [
