@@ -24,7 +24,7 @@
 | `expf`  | export from     | `export { default } from 'module';` |
 | `expa`  | export all from | `export * from 'module';`           |
 
-### Try Snippets
+## Try Snippets
 | Trigger | Name              | Code                            |
 | ------- | ----------------- | ------------------------------- |
 | `tryc`  | try catch         | `try { } catch { }`             |
